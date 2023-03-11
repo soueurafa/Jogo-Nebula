@@ -14,6 +14,6 @@ $('.botaoNext').click(function(){
       
     localStorage.players = JSON.stringify(array);
       
-    window.location = './selecionar-personagem.html';
+    window.location = 'pages/selecionar-personagem.html';
       
 });
